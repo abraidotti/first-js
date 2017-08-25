@@ -46,6 +46,42 @@ console.log(food[1][1]);
 
 console.log(foodReverse);
 
+//use commas to separate object properties
+var user = {
+	firstName: 'Lucille',
+	lastName: 'Bluth',
+	age: 20
+};
+
+//use dot notation to access an object's properties.
+console.log(user.age);
+
+//OR use square bracket notation!
+console.log(user['firstName']);
 
 
+//in-class exercise:
+
+//1
+var firstNumber = 10;
+var secondNumber = 20;
+console.log(firstNumber + secondNumber);
+
+//2
+var firstString = 'Hello';
+var secondString = 'World!';
+alert(firstString + ' ' + secondString);
+
+//3
+var me = {
+	firstName: 'Sandro',
+	lastName: 'Braidotti',
+	age: 37,
+	favoriteFoods: ['pizza', 'burritos', 'sushi']
+}
+
+console.log(me.firstName + " " + me.lastName + ", age " 
+	+ me.age + ", likes " + me.favoriteFoods[0] + ", " + 
+	me.favoriteFoods[1] + ", and " + me['favoriteFoods'][2]
+	+ ".");
 
